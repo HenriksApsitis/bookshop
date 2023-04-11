@@ -30,9 +30,9 @@ public class User implements UserDetails {
     private String password;
     private String roles;
 
-    public User(String name, String email, String password, String roles) {
+    public User(String username, String email, String password, String roles) {
 //        this.id = ;
-        this.username = name;
+        this.username = username;
         this.email = email;
         this.password = password;
         this.roles = roles;

@@ -1,6 +1,5 @@
 package com.bookshop.user;
 
-import com.bookshop.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
